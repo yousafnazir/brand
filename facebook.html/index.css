@@ -1,0 +1,65 @@
+p{
+  margin: 0;
+}
+.main-div {
+  display: flex;
+  gap: 30px;
+  padding-left: 20px;
+ border-radius: 500px;
+  padding-top: 10px; 
+}
+.last-card {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.col-1 {
+  background-color: rgba(255, 255, 255, 0.889); 
+  transition:box-shadow 0.15s;
+  box-shadow:0px 0px 10px rgb(163, 144, 144);
+}
+.new-card {
+  width: 200px;
+ height: 200px;
+}
+.card-2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+.card-3 {
+  width: 25px;
+  padding-top: 0px;
+  height: 25px;
+  border-radius: 50px;
+}
+.card-4 {
+ font-size: 12px;
+ font-family:Arial, Helvetica, sans-serif ;
+ color: lightgray;
+ margin-top: 0px;
+ padding-left: 10px;
+ display: inline-flex;
+}
+.card-5 {
+  background-color: #0d8cf0;
+  border :solid;
+  height :38px;
+  width :100px;
+  border-radius :8px;
+  color:  white;
+ margin-top: 10px;
+  cursor: pointer;
+  transition :background-color 1s;
+  color :1s;
+  font-size: 14px;
+}
+.card-6{
+  display: flex;
+  margin-top: 2px;
+}
+.card-7 {
+  padding:08px 20px;
+}
